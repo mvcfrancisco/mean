@@ -11,7 +11,7 @@ module.exports = {
     uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://heroku_xgp0501h:lfh6pl8k9tb9r9d74d18hcr0cg@ds241025.mlab.com:41025/heroku_xgp0501h' ,
     options: {
       user: 'heroku_xgp0501h',
-      pass: 'DTKuQUvZKoucJrJ71Ht3-0_J1aFvjZ2x'
+      pass: 'lfh6pl8k9tb9r9d74d18hcr0cg'
     },
     // Enable mongoose debug mode
     debug: process.env.MONGODB_DEBUG || false
